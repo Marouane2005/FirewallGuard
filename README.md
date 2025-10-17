@@ -57,3 +57,47 @@ MIT License
 
 ## 📅 Development Log
 - **2025-10-17**: Project initialized, GitHub integration complete
+
+
+## 🚀 Live Demo Results
+
+**Real threat detection from my home network:**
+
+\\\
+[*] EVENT STATISTICS
+Total Events: 998
+Blocked (DROP): 846
+Allowed (ALLOW): 152
+Unique Source IPs: 8
+
+[*] THREAT DETECTION
+🚨 Potential Brute Force - Severity: High
+   Source IP: 192.168.3.135
+   323 blocked connection attempts
+
+🚨 Potential Brute Force - Severity: High
+   Source IP: fe80::80f7:74ff:fee7:5d32
+   485 blocked connection attempts
+\\\
+
+**Status:** ✅ Successfully detecting real threats!
+
+## 📦 Installation & Usage
+
+\\\powershell
+# Clone repository
+git clone https://github.com/Marouane2005/FirewallGuard.git
+cd FirewallGuard
+
+# Run analysis
+.\examples\analyze_logs.ps1
+\\\
+
+## ✨ Features Implemented
+- [x] Windows Firewall log parsing
+- [x] Port scan detection
+- [x] Brute force detection
+- [x] Suspicious port monitoring
+- [x] Statistical analysis
+- [ ] Threat intelligence API (coming soon)
+- [ ] Web dashboard (coming soon)
